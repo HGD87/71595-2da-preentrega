@@ -1,0 +1,30 @@
+/* Estilos generales */
+body {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+}
+
+
+.productos {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.productos img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+}
