@@ -44,9 +44,13 @@
 
 </div>
 
-    <div id="carrito"></div>
-    <input type="number" id="cantidad_${producto.id}" min="1"> <!Agregar productos al carrito>
-    <button onclick="realizarCompra()">Realizar Compra</button>
+    <div id="carrito">
+        <h2>Su Compra</h2>
+        <ul id="lista-carrito">
+            </ul>
+        <p>Total: <span id="total">0</span></p>
+        <button id="btnComprar">Realizar Compra</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
